@@ -3,10 +3,17 @@
 
 # But DO NOT ignore these
 !.gitignore
+
+# Backend paths (from local)
 !/backend/
 !/backend/templates/
 !/backend/static/
-
-# Allow files inside folders
 !/backend/templates/**
 !/backend/static/**
+
+# Frontend paths (from remote)
+!frontend/
+!frontend/app.py
+!frontend/heart_model.pkl
+!frontend/shap_explainer.pkl
+!frontend/requirement.txt

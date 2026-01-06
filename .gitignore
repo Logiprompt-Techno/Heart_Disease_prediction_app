@@ -1,6 +1,7 @@
 *
+!frontend/
+!frontend/app.py
+!frontend/heart_model.pkl
+!frontend/shap_explainer.pkl
+!frontend/requirement.txt
 !.gitignore
-!app.py
-!heart_model.pkl
-!shap_explainer.pkl
-!requirement.txt

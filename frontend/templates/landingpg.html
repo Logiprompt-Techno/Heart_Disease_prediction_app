@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HeartSense AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+    <div class="card landing">
+
+        <div class="header">
+            ❤️ HeartSense AI
+        </div>
+
+        <div class="landing-content">
+            <h1>Heart Disease Risk Predictor</h1>
+            <p>
+                An AI-powered system to assess heart disease risk based on
+                patient clinical data.
+            </p>
+
+            <ul>
+                <li>✔ Fast & Accurate</li>
+                <li>✔ Clinically Relevant Factors</li>
+                <li>✔ Easy to Use</li>
+            </ul>
+
+            <a href="{{ url_for('predict_page') }}" class="start-btn">
+                Start Prediction
+            </a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# But DO NOT ignore these
+!.gitignore
+!/backend/
+!/backend/templates/
+!/backend/static/
+
+# Allow files inside folders
+!/backend/templates/**
+!/backend/static/**

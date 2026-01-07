@@ -4,23 +4,8 @@
 # But DO NOT ignore these
 !.gitignore
 
-# Backend paths (from local)
-!/backend/
-!/backend/templates/
-!/backend/static/
-!/backend/templates/**
-!/backend/static/**
-!/backend/images/
-!/backend/images/**
-!/backend/An_Automated_and_Explainable_ML_System_for_Heart_Disease_Prediction.ipynb
+
 
 # Frontend paths (from remote/local)
-!frontend/
-
-!frontend/An_Automated_and_Explainable_ML_System_for_Heart_Disease_Prediction.ipynb
-!frontend/templates/
-!frontend/templates/**
-!frontend/static/
-!frontend/static/**
-!frontend/images/
-!frontend/images/**
+!frontend/**
+frontend/venv/

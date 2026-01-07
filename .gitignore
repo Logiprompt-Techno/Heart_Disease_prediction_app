@@ -3,6 +3,7 @@
 
 # But DO NOT ignore these
 !.gitignore
+!An_Automated_and_Explainable_ML_System_for_Heart_Disease_Prediction.ipynb
 
 # Backend paths (from local)
 !/backend/

@@ -17,12 +17,10 @@ explainer = joblib.load("shap_explainer.pkl")
 # -------- Frontend Route --------
 @app.route("/")
 def home():
-    return render_template("landingpg.html")
-
-@app.route("/predict")
+    return render_template("home.html") 
+@app.route("/predict-page")
 def predict_page():
     return render_template("index.html")
-
 
 
 # -------- Prediction API --------

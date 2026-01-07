@@ -1,8 +1,7 @@
 *
-!backend/
-!backend/app.py
-!backend/heart_model.pkl
-!backend/shap_explainer.pkl
-!backend/requirement.txt
-!backend/An_Automated_and_Explainable_ML_System_for_Heart_Disease_Prediction .ipynb
+!frontend/
+!frontend/app.py
+!frontend/heart_model.pkl
+!frontend/shap_explainer.pkl
+!frontend/requirement.txt
 !.gitignore

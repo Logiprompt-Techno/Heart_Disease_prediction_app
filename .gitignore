@@ -1,29 +1,6 @@
-# Ignore everything
 *
-
-# But DO NOT ignore these
-!.gitignore
-!An_Automated_and_Explainable_ML_System_for_Heart_Disease_Prediction.ipynb
-
-# Backend paths (from local)
-!/backend/
-!/backend/templates/
-!/backend/static/
-!/backend/templates/**
-!/backend/static/**
-!/backend/images/
-!/backend/images/**
-
-# Frontend paths (from remote)
 !frontend/
 !frontend/app.py
 !frontend/heart_model.pkl
 !frontend/shap_explainer.pkl
 !frontend/requirement.txt
-!frontend/An_Automated_and_Explainable_ML_System_for_Heart_Disease_Prediction.ipynb
-!frontend/templates/
-!frontend/templates/**
-!frontend/static/
-!frontend/static/**
-!frontend/images/
-!frontend/images/**

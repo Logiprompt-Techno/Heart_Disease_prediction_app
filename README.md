@@ -13,7 +13,7 @@ Dataset: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
 ![Screenshot1](backend/images/Screenshot%202026-01-07%20100733.png)
 
 ### Screenshot 2
-![Screenshot2](backend/images/Screenshot%202026-01-07%20105246.png)
+![Screenshot3](backend/images/Screenshot%202026-01-07%20105254.png)
 
 ### Screenshot 3
-![Screenshot3](backend/images/Screenshot%202026-01-07%20105254.png)
+![Screenshot2](backend/images/Screenshot%202026-01-07%20105246.png)

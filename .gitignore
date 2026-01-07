@@ -10,6 +10,8 @@
 !/backend/static/
 !/backend/templates/**
 !/backend/static/**
+!/backend/images/
+!/backend/images/**
 
 # Frontend paths (from remote)
 !frontend/

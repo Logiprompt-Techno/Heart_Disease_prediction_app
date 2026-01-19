@@ -9,12 +9,18 @@ Dataset: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
 
 Step By Step Guide to run Heat Sense AI
 
-Step 1: 
-First, install Python version 3.8 or higher on the system and verify that Python and pip are correctly configured.
+Step 1: Install Python
 
-Step 2: 
-Create a new project directory named HeartSense-AI to store all backend, model, and frontend files. Inside the project directory, place the Flask application file (app.py), the trained Random Forest model file (heart_model.pkl), and the SHAP explainer file (shap_explainer.pkl). Create a templates folder and add the frontend HTML files (home.html and index.html) required for rendering the user interface. Create a static folder to store CSS and JavaScript files used for styling and client-side logic.
+First, install Python version 3.8 or higher on the system and verify that both Python and pip are correctly configured.
 
+Step 2: Create the Project Directory
+
+Create a new project directory named HeartSense-AI to store all backend, model, and frontend files.
+Inside this directory, place the Flask application file (app.py), the trained Random Forest model file (heart_model.pkl), and the SHAP explainer file (shap_explainer.pkl).
+Create a templates folder and add the frontend HTML files (home.html and index.html) required for rendering the user interface.
+Create a static folder to store CSS and JavaScript files used for styling and client-side logic.
+
+Project Structure
 HeartSense-AI/
 ├── app.py
 ├── heart_model.pkl
@@ -26,17 +32,23 @@ HeartSense-AI/
 └── static/
     └── css/ and js/ files
 
-Step 3:
-Create a virtual environment for the project to isolate dependencies from the system Python installation.
+Step 3: Create and Activate a Virtual Environment
+
+Create a virtual environment to isolate project dependencies from the system Python installation.
+
 python -m venv venv
 
+
 Activate the virtual environment before installing any project-specific libraries.
+
 venv\Scripts\activate
 
-Step 4:
-Install all required Python packages such as Flask, Flask-CORS, pandas, scikit-learn, joblib, and SHAP using pip.
+Step 4: Install Required Dependencies
 
-Create requirements.txt with the following content:
+Install all required Python packages such as Flask, Flask-CORS, pandas, NumPy, scikit-learn, joblib, and SHAP using pip.
+
+Create a requirements.txt file with the following content:
+
 flask
 flask-cors
 pandas
@@ -45,23 +57,31 @@ scikit-learn
 joblib
 shap
 
-Install dependencies:
+
+Install the dependencies:
+
 pip install -r requirements.txt
 
-Step 5:
-Ensure that the trained machine learning model and SHAP explainer were created using the same feature order and feature names expected by the Flask application.
+Step 5: Verify Model Compatibility
 
-Step 6:
+Ensure that the trained machine learning model and SHAP explainer were created using the same feature names and feature order expected by the Flask application.
+
+Step 6: Run the Flask Application
+
 Start the Flask server by running the application file using the Python interpreter.
+
 python app.py
 
+
 Confirm that the Flask development server starts successfully and listens on the local host at port 5000.
-Open a web browser and access the home page of the application through the provided local URL.
+
 Running on http://127.0.0.1:5000/
 
-Navigate to the prediction page where the user interface form allows entry of patient health parameters.
-Enter patient details such as age, blood pressure, cholesterol, and chest pain type into the web form.
+Step 7: Use the Application
 
+Open a web browser and access the home page of the application using the local URL.
+Navigate to the prediction page, where the user interface allows entry of patient health parameters.
+Enter patient details such as age, blood pressure, cholesterol level, and chest pain type into the web form to receive a heart disease risk prediction.
 
 ## Screenshots
 

@@ -27,7 +27,7 @@ HeartSense-AI/
 │   └── index.html
 │
 └── static/
-    └── (CSS/JS files)
+    └── CSS/JS files
 
 Step 3:
 Create a virtual environment for the project to isolate dependencies from the system Python installation.

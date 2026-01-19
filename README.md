@@ -7,6 +7,65 @@ HeartSense AI is a machine learning–based web application that predicts the ri
 Dataset: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
 
 
+Step By Step Guide to run Heat Sense AI
+
+Step 1: 
+First, install Python version 3.8 or higher on the system and verify that Python and pip are correctly configured.
+
+Step 2: 
+Create a new project directory named HeartSense-AI to store all backend, model, and frontend files. Inside the project directory, place the Flask application file (app.py), the trained Random Forest model file (heart_model.pkl), and the SHAP explainer file (shap_explainer.pkl). Create a templates folder and add the frontend HTML files (home.html and index.html) required for rendering the user interface. Create a static folder to store CSS and JavaScript files used for styling and client-side logic.
+
+HeartSense-AI/
+│
+├── app.py
+├── heart_model.pkl
+├── shap_explainer.pkl
+├── requirements.txt
+│
+├── templates/
+│   ├── home.html
+│   └── index.html
+│
+└── static/
+    └── (CSS/JS files)
+
+Step 3:
+Create a virtual environment for the project to isolate dependencies from the system Python installation.
+python -m venv venv
+
+Activate the virtual environment before installing any project-specific libraries.
+venv\Scripts\activate
+
+Step 4:
+Install all required Python packages such as Flask, Flask-CORS, pandas, scikit-learn, joblib, and SHAP using pip.
+
+Create requirements.txt with the following content:
+flask
+flask-cors
+pandas
+numpy
+scikit-learn
+joblib
+shap
+
+Install dependencies:
+pip install -r requirements.txt
+
+Step 5:
+Ensure that the trained machine learning model and SHAP explainer were created using the same feature order and feature names expected by the Flask application.
+
+Step 6:
+Start the Flask server by running the application file using the Python interpreter.
+python app.py
+
+Confirm that the Flask development server starts successfully and listens on the local host at port 5000.
+Open a web browser and access the home page of the application through the provided local URL.
+Running on http://127.0.0.1:5000/
+
+Navigate to the prediction page where the user interface form allows entry of patient health parameters.
+Enter patient details such as age, blood pressure, cholesterol, and chest pain type into the web form.
+
+
 ## Screenshots
 
 ### Screenshot 1

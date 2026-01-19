@@ -16,18 +16,15 @@ Step 2:
 Create a new project directory named HeartSense-AI to store all backend, model, and frontend files. Inside the project directory, place the Flask application file (app.py), the trained Random Forest model file (heart_model.pkl), and the SHAP explainer file (shap_explainer.pkl). Create a templates folder and add the frontend HTML files (home.html and index.html) required for rendering the user interface. Create a static folder to store CSS and JavaScript files used for styling and client-side logic.
 
 HeartSense-AI/
-│
 ├── app.py
 ├── heart_model.pkl
 ├── shap_explainer.pkl
 ├── requirements.txt
-│
 ├── templates/
 │   ├── home.html
 │   └── index.html
-│
 └── static/
-    └── CSS/JS files
+    └── css/ and js/ files
 
 Step 3:
 Create a virtual environment for the project to isolate dependencies from the system Python installation.
